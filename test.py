@@ -21,13 +21,13 @@ def hitung():
             print(f"Hasil: {angka1} - {angka2} = {angka1 - angka2}")
         elif pilihan == '3':
             print(f"Hasil: {angka1} * {angka2} = {angka1 * angka2}")
-        elif pilihan == '4':
             if angka2 != 0:
                 print(f"Hasil: {angka1} / {angka2} = {angka1 / angka2}")
             else:
                 print("Error: Tidak bisa membagi dengan angka nol.")
         else:
             print("Pilihan tidak valid.")
+            print("TestASKJDHKJSADHASKDBASJKDNBKASJDNLASDHASLDKKLASDJLKASJDLASKJD")
             
     except ValueError:
         print("Error: Harap masukkan angka yang valid.")
