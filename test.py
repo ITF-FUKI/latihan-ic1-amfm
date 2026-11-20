@@ -2,8 +2,12 @@ def sapa_pengguna():
     nama = input("Masukkan nama kamu: ")
     print(f"\nHalo, {nama}! Selamat datang di program Python pertamamu.\n")
 
+def HelloWorld(s):
+    print(s)
+
 def hitung():
     try:
+        HelloWorld("Hello World!")
         angka1 = float(input("Masukkan angka pertama: "))
         angka2 = float(input("Masukkan angka kedua: "))
         
@@ -20,7 +24,7 @@ def hitung():
         elif pilihan == '2':
             print(f"Hasil: {angka1} - {angka2} = {angka1 - angka2}")
         elif pilihan == '3':
-            print(f"Hasil: {angka1} * {angka2} = {angka1 * angka2}")
+            pass
         elif pilihan == '4':
             if angka2 != 0:
                 print(f"Hasil: {angka1} / {angka2} = {angka1 / angka2}")
