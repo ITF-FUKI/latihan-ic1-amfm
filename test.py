@@ -14,6 +14,7 @@ def hitung():
         print("4. Bagi (/)")
         print("5. Modulo (%)")
         print("6. Floor (//)")
+        print("7. Pangkat (**)")
         
         pilihan = input("Masukkan pilihan (1/2/3/4): ")
         
