@@ -1,6 +1,6 @@
 def sapa_pengguna():
-    nama = input("Masukkan nama kamu: ")
-    print(f"\nHalo, {nama}! Selamat datang di program Python pertamamu.\n")
+    nama = input("Masukkan nama ganteng kamu: ")
+    print(f"\nHalo, {nama}! Selamat datang di program Python pertamamu ganteng.\n")
 
 def hitung():
     try:
@@ -25,7 +25,7 @@ def hitung():
             if angka2 != 0:
                 print(f"Hasil: {angka1} / {angka2} = {angka1 / angka2}")
             else:
-                print("Error: Tidak bisa membagi dengan angka nol.")
+                print("Error: Tidak bisa membagi dengan angka nol. Silahkan coba lagi.")
         else:
             print("Pilihan tidak valid.")
             
