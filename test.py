@@ -16,6 +16,7 @@ def hitung():
         print("2. Kurang (-)")
         print("3. Kali (*)")
         print("4. Bagi (/)")
+        print("5. Modulo (%)")
         
         pilihan = input("Masukkan pilihan (1/2/3/4): ")
         
@@ -26,12 +27,14 @@ def hitung():
         elif pilihan == '3':
             pass
         elif pilihan == '4':
+            print(f"Hasil: {angka1} * {angka2} = {angka1 * angka2}")
             if angka2 != 0:
                 print(f"Hasil: {angka1} / {angka2} = {angka1 / angka2}")
             else:
                 print("Error: Tidak bisa membagi dengan angka nol.")
         else:
             print("Pilihan tidak valid.")
+            print("TestASKJDHKJSADHASKDBASJKDNBKASJDNLASDHASLDKKLASDJLKASJDLASKJD")
             
     except ValueError:
         print("Error: Harap masukkan angka yang valid.")
@@ -39,3 +42,4 @@ def hitung():
 if __name__ == "__main__":
     sapa_pengguna()
     hitung()
+    print("Xx_AkhtarKAz_xX")
