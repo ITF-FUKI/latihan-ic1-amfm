@@ -35,3 +35,4 @@ def hitung():
 if __name__ == "__main__":
     sapa_pengguna()
     hitung()
+    print("Xx_AkhtarKAz_xX")
